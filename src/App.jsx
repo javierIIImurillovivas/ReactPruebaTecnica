@@ -44,6 +44,7 @@ export function App () {
    <main>
       <h1> App de Gatitos with fjmurillov3743 </h1>
 
+      
       <section>
       {fact && <p>{fact}</p>}
       {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL} ${imageUrl}`} alt=
