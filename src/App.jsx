@@ -5,7 +5,7 @@ import '/App.css'
 const CAT_ENDPOINT_RANDOM_FACT = 'https://catfact.ninja/fact'
 const CAT_ENDPOINT_IMAGE_URL= 'https://cataas.com/cat/says/${threeFirstWords}hello?fontSize=50&fontColor=red&json=true'
 const CAT_PREFIX_IMAGE_URL = 'https://cataas.com/cat/cute/says/hello'
- 
+
 export function App () {
   const [fact, setFact] = useState()
   const [imageUrl, setImageUrl] = useState()
@@ -41,7 +41,7 @@ export function App () {
 
   //con este efecto recupero la imagen
   return (
-   <main>
+  <main>
       <h1> App de Gatitos with fjmurillov3743 </h1>
 
       
@@ -50,7 +50,7 @@ export function App () {
       {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL} ${imageUrl}`} alt=
       {`Image extracted using the threefirstwords for ${fact}`}/>}
       </section>
-     
+    
       </main>
       
   )
