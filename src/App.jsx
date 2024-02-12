@@ -22,7 +22,7 @@ export function App () {
   },  [])
 
    // para recuperar la imagen cada vez que tenemos una cita nueva
-   useEffect(() => {
+  useEffect(() => {
     if (!fact) return
 
     const threeFirstWords = fact.split(' ', 3).join(' ')
