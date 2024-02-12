@@ -18,7 +18,7 @@ export function App () {
           const {fact} = data
             setFact(fact)
       })
-      
+      alert("starting to program react native with fjmurillov3743");
   },  [])
 
    // para recuperar la imagen cada vez que tenemos una cita nueva
@@ -44,7 +44,7 @@ export function App () {
   <main>
       <h1> App de Gatitos with fjmurillov3743 </h1>
 
-      
+    
       <section>
       {fact && <p>{fact}</p>}
       {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL} ${imageUrl}`} alt=
