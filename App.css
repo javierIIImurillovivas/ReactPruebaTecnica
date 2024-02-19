@@ -12,6 +12,10 @@ main{
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1{
+    color: greenyellow;
+}
+
 /* Eate modo vertical  */
 /*section{
     display: flex;
